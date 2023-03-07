@@ -1,3 +1,29 @@
 .container {
   display: flex;
 }
+.explore {
+  width: 30%;
+}
+.explore > img {
+  margin-left: 42%;
+  width: 2rem;
+  height: 2rem;
+}
+.text-inside-explore {
+  text-align: center;
+}
+.middle-search {
+  width: 40%;
+  align-items: center;
+}
+.trendsforyou {
+  text-align: center;
+}
+.trending1,
+.trending2,
+.trending3,
+.trending4,
+.trending5,
+.showmore > a {
+  text-align: center;
+}
