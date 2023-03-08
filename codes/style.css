@@ -111,11 +111,20 @@
   
 }
 
-/* sign buttons */
-.signbuttons>button {
-  display: block;
+/* sign buttons. used seperate tags/class to adjust the buttons perfectly. */
+.button-google>button,.button-create>button {
   margin-top: 0.7rem;
   transform: translate(84%, 10%);
+}
+.button-apple>button {
+  margin-top: 0.7rem;
+  transform: translate(85%, 11%);
+  font-weight: 600;
+}
+.button-create>button {
+  margin-top: 0.7rem;
+  transform: translate(102%, 11%);
+  font-weight: 600;
 }
 .sign-terms-privacy>p>a {
   color: rgb(29, 155, 240);
