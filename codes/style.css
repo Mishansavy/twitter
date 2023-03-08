@@ -42,6 +42,13 @@
   border-width: 1px 1px 1px 1px;
   border-color: #dadde1;
 }
+.img-searchbox [type="text"] {
+  color: rgb(10, 10, 10);
+  padding-left: 10%;
+}
+.img-searchbox>img {
+  transform: translate(175%, 17%);
+}
 .trendsforyou,
 .trending1, .trending2, .trending3, .trending4, .trending5, .showmore > a {
   margin-left: 1rem;
