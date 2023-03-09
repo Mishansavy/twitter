@@ -1,3 +1,6 @@
+*{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 .container {
   width: 100%;
   display: flex;
@@ -45,9 +48,26 @@
 .img-searchbox [type="text"] {
   color: rgb(10, 10, 10);
   padding-left: 10%;
+  font-size: 14px;
+}
+.img-searchbox input {
+  border-radius: 30px;
+  box-sizing: content-box;
+  height: 38px;
+  width: 370px;
+  border: 1px solid #dfe1e5;
+  margin: 0 auto;
+  margin-top: 3px;
+  outline: #dfe1e5;
+  background-color: #EFF3F4;
+
+}
+.img-searchbox input:focus {
+  background-color: #fff;
+  outline: 1px solid #1d9bf0;
 }
 .img-searchbox>img {
-  transform: translate(175%, 17%);
+  transform: translate(268%, 17%);
 }
 .trendsforyou,
 .trending1, .trending2, .trending3, .trending4, .trending5, .showmore > a {
@@ -117,21 +137,28 @@
   border-color: #dadde1;
   
 }
-
-/* sign buttons. used seperate tags/class to adjust the buttons perfectly. */
-.button-google>button,.button-create>button {
-  margin-top: 0.7rem;
-  transform: translate(84%, 10%);
+/* text section of .newtotwittertext and .get-your-own text inside newtotwitter  */
+.new-twitter {
+  size: 6vh;
+  font-weight: 800;
+  line-height: 24px;
+  color: #0f1419;
 }
-.button-apple>button {
-  margin-top: 0.7rem;
-  transform: translate(85%, 11%);
-  font-weight: 600;
+.get-your-own {
+  size: 1.2vh;
+  line-height: 16px;
+  color: #AAB2B9;
 }
-.button-create>button {
-  margin-top: 0.7rem;
-  transform: translate(102%, 11%);
-  font-weight: 600;
+/* using all div class at once to manipulate the button sizes and
+colors and other features to reduce code */
+.button-google button, .button-apple button,.button-create button {
+  height: 45px;
+ background-color:#fff;
+ outline: #fff;
+ border: 1px solid #dfe1e5;   
+ transform: translate(13%, 11%);
+ width: 20rem;
+ margin-bottom: 0.7rem;
 }
 .sign-terms-privacy>p>a {
   color: rgb(29, 155, 240);
