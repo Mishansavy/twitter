@@ -138,16 +138,17 @@
   
 }
 /* text section of .newtotwittertext and .get-your-own text inside newtotwitter  */
-.new-twitter {
-  size: 6vh;
-  font-weight: 800;
+.new-twittertext {
+  size: 19vh;
+  font-weight: bold;
   line-height: 24px;
   color: #0f1419;
 }
 .get-your-own {
-  size: 1.2vh;
+  font-size: 14px;
   line-height: 16px;
-  color: #AAB2B9;
+  color: #979797;
+  font-weight: 500;
 }
 /* using all div class at once to manipulate the button sizes and
 colors and other features to reduce code */
@@ -155,18 +156,46 @@ colors and other features to reduce code */
   height: 45px;
  background-color:#fff;
  outline: #fff;
- border: 1px solid #dfe1e5;   
- transform: translate(13%, 11%);
- width: 20rem;
+ border: 1px solid #dadce0;   
+ border-radius: 40px;
+ transform: translate(13%, 11%);  
+ width: 300px;
+ max-width: 400px;
+ min-width: min-content;
  margin-bottom: 0.7rem;
+
+}
+/* for button logos  */
+.button-google>button > img {
+  width: 25px;
+  height: 22px;
+  transform: translate(-42%, 20%);
+
+}
+.button-apple>button>img {
+  width: 25px;
+  height: 22px;
+  transform: translate(-46%, 20%);
+}
+/* to bold  */
+.button-create>button, .button-apple>button{
+  font-weight: bolder;
+
+}
+.sign-terms-privacy>p {
+  font-size: 13px;
+  font-weight: 500;
 }
 .sign-terms-privacy>p>a {
   color: rgb(29, 155, 240);
   text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
 }
 .terms-accessibility-ads-more>p, .terms-accessibility-ads-more>p>a {
   color: grey;
   text-decoration: none;
+  font-size: 13px;
 }
 .terms-accessibility-ads-more>p>a:hover, 
   .sign-terms-privacy>p>a:hover  { 
