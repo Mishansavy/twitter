@@ -14,8 +14,7 @@
 .explore {
   width: 30%;
 }
-.explore > img {
-
+.twitterlogo {
   width: 2rem;
   height: 2rem;
 }
@@ -35,6 +34,23 @@
 }
 .text-inside-explore-same {
   font-weight: 600;
+}
+.hastag-explore {
+  position: relative;
+  width: 30px;
+  height: 28px;
+  transform: translate(-38%, 20%);
+}
+.settingsicon {
+  position: relative;
+  width: 30px;
+  height: 28px;
+  transform: translate(-36%, 28%);
+}
+.search-side-settings {
+  width: 30px;
+  height: 28px;
+  transform: translate(62%, 32%);
 }
 .middle-search {
   width: 50%;
