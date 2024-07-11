@@ -1,71 +1,90 @@
-*{
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+* {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 .container {
   width: 100%;
   display: flex;
   /* justify-content: space-between; */
 
 }
+
 .main {
   display: flex;
   width: 100%;
 }
+
 .explore {
   width: 30%;
 }
+
 .twitterlogo {
   width: 2rem;
   height: 2rem;
 }
-.explore > img, .text-inside-explore-same, .text-inside-explore-settings{
+
+.explore>img,
+.text-inside-explore-same,
+.text-inside-explore-settings {
   margin-left: 22%;
 }
-.text-inside-explore-same, .text-inside-explore-settings {
+
+.text-inside-explore-same,
+.text-inside-explore-settings {
   color: black;
   font-size: 1.3rem;
 }
-.text-inside-explore-same:hover, .text-inside-explore-settings:hover {
-  background-color: rgb(224, 222, 222) ;
+
+.text-inside-explore-same:hover,
+.text-inside-explore-settings:hover {
+  background-color: rgb(224, 222, 222);
   margin-left: 22%;
   border-radius: 5% 5%;
   padding-inline-start: 1rem;
   padding-left: -10%;
 }
+
 .text-inside-explore-same {
   font-weight: 600;
 }
+
 .hastag-explore {
   position: relative;
   width: 30px;
   height: 28px;
   transform: translate(-38%, 20%);
 }
+
 .settingsicon {
   position: relative;
   width: 30px;
   height: 28px;
   transform: translate(-36%, 28%);
 }
+
 .search-side-settings {
   width: 30px;
   height: 28px;
-  transform: translate(1564%, -116%); 
+  transform: translate(1564%, -116%);
 }
+
 .middle-search {
   width: 50%;
   align-items: center;
 }
+
 .middle-search {
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-color: #dadde1;
 }
+
 .img-searchbox [type="text"] {
   color: rgb(10, 10, 10);
   padding-left: 10%;
   font-size: 14px;
 }
+
 .img-searchbox input {
   border-radius: 30px;
   box-sizing: content-box;
@@ -78,39 +97,49 @@
   background-color: #EFF3F4;
 
 }
+
 .img-searchbox input:focus {
   background-color: #fff;
   outline: 1px solid #1d9bf0;
 }
+
 .img-searchbox>img {
   transform: translate(268%, 17%);
 }
+
 .trendsforyou,
-.trending1, .trending2, .trending3, .trending4, .trending5, .showmore > a {
+.trending,
+.showmore>a {
   margin-left: 1rem;
 }
-.trending1:hover,.trending2:hover,.trending3:hover,.trending4:hover,.trending5:hover{
+
+.trending:hover {
   background-color: #e6e6e6;
 }
-.worldwide1,.worldwide2,.worldwide3,.worldwide4,.worldwide5{
+
+.worldwide {
   margin-bottom: -10px;
   color: #536471;
   font-size: 13px;
 }
-.tweets1,.tweets2,.tweets3,.tweets4,.tweets5 {
+
+.tweetsCounts {
   margin-top: -10px;
   color: #536471;
   font-size: 13px;
 }
-.firsttweets,.secondtweets,.thirdtweets,.fourthtweets,.fifthtweets{
-  font-weight:600;
+
+.tweetsTitle {
+  font-weight: 600;
 }
-.showmore>a{
+
+.showmore>a {
   text-decoration: none;
   font-size: 15px;
   line-height: 20px;
   color: #1d9bf0;
 }
+
 .newtotwitter {
   width: 40%;
   margin-left: 1rem;
@@ -120,8 +149,9 @@
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-color: #dadde1;
-  
+
 }
+
 /* text section of .newtotwittertext and .get-your-own text inside newtotwitter  */
 .new-twittertext {
   size: 19vh;
@@ -129,60 +159,72 @@
   line-height: 24px;
   color: #0f1419;
 }
+
 .get-your-own {
   font-size: 14px;
   line-height: 16px;
   color: #979797;
   font-weight: 500;
 }
+
 /* using all div class at once to manipulate the button sizes and
 colors and other features to reduce code */
-.button-google button, .button-apple button,.button-create button {
+.btn {
   height: 45px;
- background-color:#fff;
- outline: #fff;
- border: 1px solid #dadce0;   
- border-radius: 40px;
- transform: translate(13%, 11%);  
- width: 300px;
- max-width: 400px;
- min-width: min-content;
- margin-bottom: 0.7rem;
+  background-color: #fff;
+  outline: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 40px;
+  transform: translate(13%, 11%);
+  width: 300px;
+  max-width: 400px;
+  min-width: min-content;
+  margin-bottom: 0.7rem;
+  cursor: pointer;
 
 }
+
 /* for button logos  */
-.button-google>button > img {
+.button-google>button>img {
   width: 25px;
   height: 22px;
   transform: translate(-42%, 20%);
 
 }
+
 .button-apple>button>img {
   width: 25px;
   height: 22px;
   transform: translate(-46%, 20%);
 }
+
 /* to bold  */
-.button-create>button, .button-apple>button{
+.button-create>button,
+.button-apple>button {
   font-weight: bolder;
 
 }
+
 .sign-terms-privacy>p {
   font-size: 13px;
   font-weight: 500;
 }
+
 .sign-terms-privacy>p>a {
   color: rgb(29, 155, 240);
   text-decoration: none;
   font-size: 13px;
   font-weight: 500;
 }
-.terms-accessibility-ads-more>p, .terms-accessibility-ads-more>p>a {
+
+.terms-accessibility-ads-more>p,
+.terms-accessibility-ads-more>p>a {
   color: grey;
   text-decoration: none;
   font-size: 13px;
 }
-.terms-accessibility-ads-more>p>a:hover, 
-  .sign-terms-privacy>p>a:hover  { 
+
+.terms-accessibility-ads-more>p>a:hover,
+.sign-terms-privacy>p>a:hover {
   text-decoration: underline;
 }
